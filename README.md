@@ -1,2 +1,2 @@
 # Alpha-Proyect
-Web plataform
+Web plataform.
