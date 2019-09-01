@@ -4,7 +4,7 @@
   "description": "Application interactive, by Youtube Platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Joandres-Lara/Alpha-Proyect/issues"
   },
-  "homepage": "https://github.com/Joandres-Lara/Alpha-Proyect#readme"
+  "homepage": "https://github.com/Joandres-Lara/Alpha-Proyect#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
 }
